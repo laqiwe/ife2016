@@ -1,0 +1,37 @@
+* {margin: 0;padding: 0;}
+body {background-color: #dedede;font-family: "Microsoft YaHei";}
+/*导航栏格式设置*/
+header {height: 70px;background-color: #333333; }
+.logo {float: left;margin-left: 50px;margin-top: 10px;}
+nav {float: right;}
+nav li {float: left;width: 100px;line-height: 70px;}
+nav li a {text-decoration: none;color: #fff;}
+
+/*article部分格式设置*/
+article,#figure,aside {margin:20px auto;width: 95%;background-color: #fff;padding: 20px;box-shadow: 1px 1px 2px 1px;}
+article p {text-indent: 2em;}
+#list li {list-style-type: none;}
+
+/*图片集部分格式设置*/
+figure {border: 1px solid black;margin-bottom: 20px;width:120px;margin-left: 50px; }
+figure img {width: 100px;height: 100px;padding: 10px;}
+figure figcaption {text-align: center;}
+ol {margin-left: 50px;}
+ol li {line-height: 30px;}
+
+/*表格格式设置*/
+table {width: 100%; border-collapse:collapse; }
+thead {background-color: #333;color: #fff;}
+tfoot {background-color: #dedede;}
+
+/*侧栏格式设置*/
+aside h2 {margin-left: 10px;border-left: 5px solid #dedede;padding: 5px;}
+aside label {display: block;margin-bottom: 15px;}
+aside label span {float: left;width: 35%;text-align: right;margin-right: 15px;}
+.tips {margin-left: 35%;padding-left: 15px;font-size: 10px;color: #dedede;display: block;margin-top: -10px;margin-bottom: 20px;}
+button {width: 100%;background-color: blue;color: #fff;font-size: 14px;line-height: 30px;border-radius: 10px;}
+textarea {width: 50%}
+
+/*footer*/
+footer {height: 50px;background-color: black;text-align: center;color: #fff;}
+footer span {display: block;padding-top: 20px;}
